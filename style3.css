@@ -1,0 +1,47 @@
+header, .links, .btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 35px;
+}
+.links{
+    list-style: none;
+    gap: 20px;
+    
+}
+button{
+    background-color:red;
+    color: white;
+    width: 100px;
+    height: 40px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+.bt{
+    background-color: white;
+    color: black;
+    
+}
+.form-floating{
+    display: flexbox;
+}
+.btns2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 35px;
+
+}
+#btn1{
+    background-color: green;
+    width: 200px;
+    height: 50px;
+}
+#btn2{
+    background-color:red;
+    width: 200px;
+    height: 50px;
+}

@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black !important;
+}
+header, .links, .btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 35px;
+}
+.links{
+    list-style: none;
+    gap: 100px;
+    font-size: large;
+    
+}
+h1{
+    font-size: large;
+    color: white !important;
+}
+h2{
+    font-size: large;
+    color: white !important;
+
+}
+button{
+    width: 100px;
+    height: 50PX;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.INBUT{
+    padding: 20px;
+    
+}
+input{
+    width: 300px;
+    height: 50px;
+    
+}
+.container{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-around;
+    
+}
+img{
+    width: 500px;
+}
+.CAR{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    color:white !important;
+    font-size: large;
+}
+.card-text{
+    color: white !important;
+    font-size: large;
+}
+footer{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: black;
+    font-size: large;
+}
+.social-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
